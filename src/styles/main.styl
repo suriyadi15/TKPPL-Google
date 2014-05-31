@@ -2,9 +2,10 @@
 
 // variables!
 
-slide_width = 640px
+// slide_width = 640px
+slide_width = 100%
 slide_height = 480px
-slide_background = rgb(86, 174, 231)
+slide_background = #f0f0f0
 
 slide_transition_length = .6s
 slide_transition_easing = ease
@@ -65,7 +66,8 @@ article
   top: 50%
   margin-top: (slide_height / 2) * -1
   left: 50%
-  margin-left: (slide_width / 2) * -1
+  // margin-left: (slide_width / 2) * -1
+  margin-left: -50%
   background: slide_background
   padding: 40px
   border-radius: 0
@@ -158,8 +160,8 @@ pre
 body
   font-family: helvetica, arial, sans-serif
   font-size: 18px
-  color: #404040
-  background: rgb(86, 174, 231)
+  color: #3a4145
+  background: #f0f0f0
 
 h1
   font-size: 72px
